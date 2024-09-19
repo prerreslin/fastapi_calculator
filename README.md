@@ -8,13 +8,13 @@
 ### Установка
 
 1. Откройте терминал.
-2. Установите проект
+2. Установите проект:
 
 ```bash
 git clone https://github.com/prerreslin/fastapi_calculator.git
 ```
 
-3.Перейдите в проект
+3.Перейдите в проект:
 ```bash
 cd fastapi_calculator
 ```
