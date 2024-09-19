@@ -24,7 +24,6 @@ source venv/bin/activate  # Для macOS/Linux
 
 4. Установите Poetry, если он еще не установлен:
 ```bash
-Копировать код
 pip install poetry
 ```
 
