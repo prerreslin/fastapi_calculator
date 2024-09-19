@@ -1,5 +1,5 @@
 [tool.poetry]
-name = "flask-calculator"
+name = "fastapi-calculator"
 version = "0.1.0"
 description = ""
 authors = ["prerreslin <sanyatop011209@gmail.com>"]
