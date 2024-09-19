@@ -11,14 +11,14 @@
 2. Создайте виртуальное окружение:
 
 ```bash
-python -m venv venv
+python -m venv .venv
 ```
 
 
 3. Активируйте виртуальное окружение:
 ```bash
-source venv/bin/activate  # Для macOS/Linux
-.\venv\Scripts\activate   # Для Windows
+source .venv/bin/activate  # Для macOS/Linux
+.\.venv\Scripts\activate   # Для Windows
 ```
 
 
