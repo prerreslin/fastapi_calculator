@@ -1,19 +1,15 @@
 [tool.poetry]
 name = "fastapi-calculator"
 version = "0.1.0"
-description = ""
+description = "just a fastapi basic calculator"
 authors = ["prerreslin <sanyatop011209@gmail.com>"]
 readme = "README.md"
+packages = [{ include = "app" }]
 
 [tool.poetry.dependencies]
 python = "^3.12"
-fastapi = {extras = ["standart"], version = "^0.115.0"}
+fastapi = {extras = ["standard"], version = "^0.115.0"}
 uvicorn = "^0.30.6"
-poetry = "^1.8.3"
 
 [tool.poetry.scripts]
-run_app = "uvicorn app.__init__:app --reload"
-
-[build-system]
-requires = ["poetry-core"]
-build-backend = "poetry.core.masonry.api"
+run_app = "app:main"  # Убедитесь, что функция main() есть в app/__init__.py
