@@ -17,25 +17,25 @@
 ```
 
 ```bash
-Копировать код
 source venv/bin/activate  # Для macOS/Linux
 .\venv\Scripts\activate   # Для Windows
-Установите Poetry, если он еще не установлен:
 ```
 
+
+Установите Poetry, если он еще не установлен:
 ```bash
 Копировать код
 pip install poetry
-Установите зависимости из pyproject.toml:
 ```
 
-```bash
-Копировать код
-poetry install
-Запуск приложения
-После установки зависимостей выполните команду:
 
+Установите зависимости из pyproject.toml:
 ```bash
-Копировать код
+poetry install
+```
+
+
+После установки зависимостей выполните команду:
+```bash
 poetry run run_app
-запуск
+```
