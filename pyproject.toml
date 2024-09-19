@@ -1,0 +1,19 @@
+[tool.poetry]
+name = "flask-calculator"
+version = "0.1.0"
+description = ""
+authors = ["prerreslin <sanyatop011209@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.12"
+fastapi = {extras = ["standart"], version = "^0.115.0"}
+uvicorn = "^0.30.6"
+poetry = "^1.8.3"
+
+[tool.poetry.scripts]
+run_app = "uvicorn app.__init__:app --reload"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
