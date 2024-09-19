@@ -14,17 +14,20 @@
    ```bash
    python -m venv venv
 Активируйте виртуальное окружение:
+```
 
 ```bash
 Копировать код
 source venv/bin/activate  # Для macOS/Linux
 .\venv\Scripts\activate   # Для Windows
 Установите Poetry, если он еще не установлен:
+```
 
 ```bash
 Копировать код
 pip install poetry
 Установите зависимости из pyproject.toml:
+```
 
 ```bash
 Копировать код
