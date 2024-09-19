@@ -11,11 +11,12 @@
 1. Откройте терминал.
 2. Создайте виртуальное окружение:
 
-   ```bash
-   python -m venv venv
-Активируйте виртуальное окружение:
+```bash
+python -m venv venv
 ```
 
+
+Активируйте виртуальное окружение:
 ```bash
 source venv/bin/activate  # Для macOS/Linux
 .\venv\Scripts\activate   # Для Windows
